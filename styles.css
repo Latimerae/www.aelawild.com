@@ -39,7 +39,7 @@ header{border: 2px green;
 			position:absolute;
 			left:8%;}
 nav {border: 2px green;
-			position: relative;
+			position: absolute;
 			height:100%
 			width:100%;
 			top:50px;

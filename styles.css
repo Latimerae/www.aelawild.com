@@ -40,7 +40,7 @@ header{border: 2px green;
 			left:8%;}
 nav {border: 2px green;
 			position: relative;
-			height:px;
+			height:100%
 			width:100%;
 			top:50px;
 			left:10%;}
@@ -60,9 +60,12 @@ footer {background-color: white;
 article {border: 2px green;
 			position:relative;
 			left:25px;}
-main {position:center;
-	top:10%;
-left:30px;}
+main {border:  none;
+			position: relative;
+			height:100%;
+			width:100%;
+			top:50px;
+			left:10%;}
 #pubthumb{max-height: 200px;
 		max-width: 200px;
 		}

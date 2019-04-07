@@ -63,7 +63,7 @@ article {border: 2px green;
 main {border: 2px green;
 	border-radius: 25px;
 	background:#f9f8ef;
-			position:relative;
+			position:center;
 			top:0px;
 			left:0px;
 			min-height:0px;

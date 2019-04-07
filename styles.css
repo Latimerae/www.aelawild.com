@@ -11,7 +11,7 @@ body {
 	background-size:80px;
 	background-repeat: no-repeat;
 	background-position: 8% 1%;
-	margin: 250px 0px 200px 30px;  /* bottom = footer height ; top right bottom left*/
+	margin: 0px 0px 200px 30px;  /* bottom = footer height ; top right bottom left*/
     padding: 1px;
 	}
 h1 {color:black;
@@ -62,10 +62,7 @@ article {border: 2px green;
 			left:25px;}
 main {border:  none;
 			position: relative;
-			height:100%;
-			width:100%;
-			top:50px;
-			left:10%;}
+	margin: 200px 0px 200px 30px;}
 #pubthumb{max-height: 200px;
 		max-width: 200px;
 		}

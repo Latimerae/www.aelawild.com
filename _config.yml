@@ -1,2 +1,5 @@
-theme: jekyll-theme-midnight
 title: Aela Wild
+description: [ROOK](https://twitter.com/aela_wild)
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-midnight

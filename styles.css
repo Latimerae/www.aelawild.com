@@ -61,7 +61,8 @@ article {border: 2px green;
 			position:relative;
 			left:25px;}
 main {position:center;
-	top:400px;}
+	top:10%;
+left:30px;}
 #pubthumb{max-height: 200px;
 		max-width: 200px;
 		}

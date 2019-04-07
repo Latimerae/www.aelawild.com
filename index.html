@@ -3,9 +3,16 @@
 <html lang="en">
 <!--- Hello and welcome to the guts-->
 <head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+    		$('#headerinclude').load('header.html');
+		});
+	</script>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
 <meta charset="utf-8"/>
+
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 	<style>
 		</style>
@@ -15,7 +22,7 @@
 
 <body>
 <header>
-	<a href="index.html"><h1> Moss and Bones</h1>
+	<div id="headerinclude"/>
 	</a></header>
 <nav>
 	<p> <h3>

@@ -1,0 +1,88 @@
+
+* {
+    font-family: 'PT Sans', sans-serif;;
+}
+html{
+    position: relative;
+    min-height: 100%;
+		}
+body {
+	background:url(mushroom_fade.jpg);
+	background-size:80px;
+	background-repeat: no-repeat;
+	background-position: 8% 1%;
+	margin: 0 0 200px; /* bottom = footer height */
+    padding: 1px;
+	}
+h1 {color:black;
+		line-height:15px;}
+h2, h3 {color:black;
+		line-height:15px;}
+h4 {color:black;
+		line-height:15px;
+		}
+p {color:black;
+		margin:1px;
+		}
+a:link  {color:green;
+		text-decoration:none;
+		font-size:10;
+		}
+a:visited  {color:green;
+		text-decoration:none;
+		font-size:10;
+		}
+a:hover  {color:#917624;
+		font-size:10;
+		}	
+header{border: 2px green;
+			position:absolute;
+			left:8%;}
+nav {border: 2px green;
+			position: relative;
+			height:px;
+			width:100%;
+			top:50px;
+			left:10%;}
+aside {border: 2px green;
+	border-radius: 25px;
+		background:#f4f1d7;
+		position:relative;
+		left:5px;
+		top:50px;
+		padding-left:10px;
+		padding-bottom:20px;
+		padding-top:10px;
+		width:250px;
+			}
+#round{ 
+    border-top-left-radius: 25px;
+    overflow: hidden;
+		}
+footer {background-color: orange;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    overflow:hidden;
+		}
+article {border: 2px green;
+			position:relative;
+			left:25px;}
+main {border: 2px green;
+	border-radius: 25px;
+	background:#f9f8ef;
+			position:absolute;
+			top:150px;
+			left:200px;
+			min-height:600px;
+			width:70%;
+			padding-left:20px;}
+#pubthumb{max-height: 200px;
+		max-width: 200px;
+		}
+#blocktext {color:purple;
+		text-decoration:none;
+		font-size:10;
+		}

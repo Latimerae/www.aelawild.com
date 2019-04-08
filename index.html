@@ -9,6 +9,11 @@
     		$('#headerinclude').load('header.html');
 		}); 
 	</script>
+		<script>
+		$(document).ready(function() {
+    		$('#navinclude').load('navigation.html');
+		}); 
+	</script>
 <!-- this thing calls the javamagic(jquery) to insert a separate html t he hashtag is the div that is the id/-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
 <meta charset="utf-8"/>
@@ -24,17 +29,9 @@
 </header>
 
 <nav role="nav">
-	<p><br> <h3>
-		<a href="aboutme.html">About Me</a>   
-			<img src="mushroom_sm.jpg" height="10" width="10";/>
-		<a href="GTOTN.html">Good things on the net</a>
-			<img src="mushroom_sm.jpg" height="10" width="10";/>
-		<a href="publications.html">Articles</a> 
-			<img src="mushroom_sm.jpg" height="10" width="10";/>	
-		<a href="vids.html">Scientific Illustration</a>
-				</h3> </p><br>
-	</nav>
-	
+	<div id="navinclude"/>
+</nav>
+
 <main role="main">	
 	<h3> Hi! Thanks for coming, it's nice you're here. </h3>
 	<p>

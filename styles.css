@@ -2,15 +2,16 @@
     font-family: 'PT Sans', sans-serif;;
 }
 h1 {color:black;
-		line-height:15px;}
+	font-size: 5vw;
+		line-height:5vw;}
 h2, h3 {color:black;
-		line-height:15px;}
+	font-size: 3.5vw;
+		line-height:3.5vw;}
 h4 {color:black;
-		line-height:15px;
-		}
+	font-size: 3vw;
+		line-height:3vw;}
 p {color:black;
-		margin:1px;
-		}
+		margin:1px;}
 a:link  {color:green;
 		text-decoration:none;
 		font-size:10;

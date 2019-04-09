@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<head>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function() {
-    		$('#headerinclude').load('header.html');
-		}); 
-	</script>
-<!-- this thing calls the javamagic(jquery) to insert a separate html t he hashtag is the div that is the id/-->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
-<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="styles.css"/>
-	<style>
-		</style>
-	<title> Aela Wild
-		</title>
-</head>
+<html lang="en">
+	<!--- Hello and welcome to the guts-->
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+	    		$('#headerinclude').load('header.html');
+	    		$('#navinclude').load('navbar.html');
+	    		$('#footerinclude').load('footer.html');
+			}); 
+		</script>
+		
+		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div that is the id/-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
+		<meta charset="utf-8"/>
 
-<body>
-<header>
-	<div id="headerinclude"/>
-</header>
-<html>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<style>
+			</style>
+		<title>Aela Wild</title>
+		</head>
+	<body>
+		<header role="header">
+			<div id="headerinclude"/>
+			</header>
+		<nav role="nav">
+			<div id="navinclude"/>
+			</nav>
+
+
+		<main role="main">	
+
 <title>
 Helpstuff
 </title>

@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<!--- Hello and welcome to the guts-->
-<head>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$(document).ready(function() {
-    		$('#headerinclude').load('header.html');
-    		$('#navinclude').load('navbar.html');
-    		$('#footerinclude').load('footer.html');
-		}); 
-	</script>
-	
-<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div that is the id/-->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
-<meta charset="utf-8"/>
+	<!--- Hello and welcome to the guts-->
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+	    		$('#headerinclude').load('header.html');
+	    		$('#navinclude').load('navbar.html');
+	    		$('#footerinclude').load('footer.html');
+			}); 
+		</script>
+		
+		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div that is the id/-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
+		<meta charset="utf-8"/>
 
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-	<style>
-		</style>
-	<title>Aela Wild</title>
-</head>
-<body>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<style>
+			</style>
+		<title>Aela Wild</title>
+		</head>
+	<body>
+		<header role="header">
+			<div id="headerinclude"/>
+			</header>
+		<nav role="nav">
+			<div id="navinclude"/>
+			</nav>
 
-<header role="header">
-	<div id="headerinclude"/>
-</header>
 
-<nav role="nav">
-	<div id="navinclude"/>
-</nav>
+		<main role="main">	
 
-<main role="main">	
+
 	<h3> Hi! Thanks for coming, it's nice you're here. </h3>
-	<p>
+	<br>
 
 I'm <i>Aela Wild</i> (Dr. Ashley E Latimer) a paleontologist and maker in Canberra, Australia. I want to share cool things about amazing critters using art: 2D, 3D, and stop motion.
 <br>

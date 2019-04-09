@@ -27,5 +27,5 @@ main {border:  none;
 	margin: 30px 0px 30px 30px;}
 
 	
-img.Profilepic {max-width:30%; min-width:60px; border-radius:50%;}
+img.Profilepic {max-width:30%; min-width:100px; border-radius:50%;}
 /* */

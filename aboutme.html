@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!--- Hello and welcome to the guts-->
+	<!-- Hello and welcome to the guts-->
 	<head>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta charset="UFT-8" />
+		<title>Aela Wild</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+
+
+		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div called later in the page-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+			</script>
 		<script>
 			$(document).ready(function() {
 	    		$('#headerinclude').load('header.html');
@@ -11,22 +18,19 @@
 			}); 
 		</script>
 		
-		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div that is the id/-->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
-		<meta charset="utf-8"/>
-
-		<link rel="stylesheet" type="text/css" href="styles.css"/>
-		<style>
-			</style>
-		<title>Aela Wild</title>
 		</head>
-	<body>
+
+
+	<body class="pg-full has-bg">
+		<main class="pg-full has-bg" role="main">
+	<div class="site-header">
 		<header role="header">
 			<div id="headerinclude"/>
 			</header>
 		<nav role="nav">
 			<div id="navinclude"/>
 			</nav>
+		</div>
 
 
 		<main role="main">	

@@ -1,6 +1,13 @@
 * {
     font-family: 'PT Sans', sans-serif;;
     }
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }    
 h1 {color:black;
 	font-size: 50px;
 	line-height:50px;}

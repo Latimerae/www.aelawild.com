@@ -33,7 +33,22 @@ main {border:  none;
 			position: relative;
 	margin: 30px 0px 30px 30px;}
 
-	
+.nav-item {
+  display: inline-block;
+  overflow: hidden; }
+
+.nav-item a {
+  color: #9d002d;
+  display: block;
+  font-size: 0.8125em;
+  /* 13 / 16 */
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 1em 1em 1em 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out, transform 0.15s ease-in-out;
+  transform-origin: 0 50%; }
 
 .articles-recent {
     display: grid;
@@ -74,7 +89,7 @@ img {
 }
 
 }
-@media ( min-width: 40em ){
+@media ( min-width: 35em ) and ( max-width: 60em ) {{
 .articles-past{
     display: grid;
     grid-template-columns:repeat(1:4fr);
@@ -101,7 +116,7 @@ img {
 }
 
 }
-@media ( min-width: 40em ){
+@media ( min-width: 60em ){
 .articles-past{
     display: grid;
     grid-template-columns:repeat(1:4fr);

@@ -46,60 +46,65 @@ a:hover {color: #FFC300 ;
 main {border:  none;
 			position: relative;
 	} 
+
 @supports (display: grid) {
-.site-mast {
-  display: grid;
-   padding: 1em; }
+    .site-mast {
+      display: grid;
+       padding: 1em; }
 
-.site-header {
-   grid-column: content;
-  margin-bottom: 2em; }
+    .site-header {
+       grid-column: content;
+      margin-bottom: 2em; }
 
 
-  .site-mast {
-    margin-bottom: 0;
-    padding: 0;
-    grid-template-columns: minmax(1rem, 1fr) [content-start] minmax(auto, 70em) [content-end] minmax(1rem, 1fr); }
-  .site-header {
-    background: none;
-    grid-column: content;
-    margin-bottom: 0; } }
+      .site-mast {
+        margin-bottom: 0;
+        padding: 0;
+        grid-template-columns: minmax(1rem, 1fr) [content-start] minmax(auto, 70em) [content-end] minmax(1rem, 1fr); }
+      .site-header {
+        background: none;
+        grid-column: content;
+        margin-bottom: 0; } }
 
-.nav-item {
-  display: inline-block;
-  overflow: hidden; }
+    .nav-item {
+      display: inline-block;
+      overflow: hidden; }
 
-.nav-item a {
-  color: #009900;
-  display: block;
-  font-size: 0.8125em;
-  /* 13 / 16 */
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  padding: 1em 1em 0em 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: color 0.15s ease-in-out, transform 0.15s ease-in-out;
-  transform-origin: 0 50%; }
-.nav-item a:hover{color: #FFC300;
-    transform: scale(1.1);
-}
+    .nav-item a {
+      color: #009900;
+      display: block;
+      font-size: 0.8125em;
+      /* 13 / 16 */
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      padding: 1em 1em 0em 0;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.15s ease-in-out, transform 0.15s ease-in-out;
+      transform-origin: 0 50%; }
+    .nav-item a:hover{color: #FFC300;
+        transform: scale(1.1);
+    }
 
-.thumb-panel { 
-    padding: 0em 0em 0em 3.5em;
-}
+    .thumb-panel { 
+        padding: 0em 0em 0em 3.5em;
+    }
 
-.articles-recent {
-    display: grid;
-    grid-template-columns: repeat( 1, 1fr );
+    .articles-recent {
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr );
 
-}
-.story-lead {
-    grid-column: 1 / 1;
-}
-.articles-recent header {
-    grid-column: 1 / 1;
-}
+    }
+    .story-lead {
+        grid-column: 1 / 1;
+    }
+    .articles-recent header {
+        grid-column: 1 / 1;
+    }
+
+    .portrait {
+        height:200px;
+    }
 
 @media ( min-width: 35em ){
 .articles-past{

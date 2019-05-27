@@ -1,12 +1,12 @@
 * {
     font-family: 'PT Sans', sans-serif;;
-}
+    }
 h1 {color:black;
 	font-size: 50px;
-		line-height:50px;}
+	line-height:50px;}
 h2, h3 {color:black;
 	font-size: 17px;
-		line-height:17px;}
+	line-height:17px;}
 h4 {color:black;
 	font-size: 15px;
 		line-height:15px;}
@@ -17,8 +17,7 @@ body{
 	background: #FFF;
 	color: #333;
 	margin: 0 auto;
-	max-width: 30em;
-}
+    }
 
 
 a:link  {color:#9d002d;

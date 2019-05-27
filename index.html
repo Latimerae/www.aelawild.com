@@ -1,68 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!--- Hello and welcome to the guts-->
-	<head>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function() {
-	    		$('#headerinclude').load('header.html');
-	    		$('#navinclude').load('navbar.html');
-	    		$('#footerinclude').load('footer.html');
-			}); 
-		</script>
-		
-		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div that is the id/-->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Raleway" rel="stylesheet"> 
-		<meta charset="utf-8"/>
-
-		<link rel="stylesheet" type="text/css" href="styles.css"/>
-		<style>
-			</style>
-		<title>Aela Wild</title>
-		</head>
-	<body>
-		<header role="header">
-			<div id="headerinclude"/>
-			</header>
-		<nav role="nav">
-			<div id="navinclude"/>
-			</nav>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#headerinclude').load('header.html');
+                $('#navinclude').load('navbar.html');
+                $('#footerinclude').load('footer.html');
+            }); 
+        </script>
 
 
+<meta charset="UTF-8" />
+
+<title>Aela Wild</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css"/>
+
+</head>
 
 
+<body class="pg-full has-bg">
+<header>
+        <header role="header">
+            <div id="headerinclude"/></div>          
+        <nav role="nav">
+            <div id="navinclude"/></div>
+            </nav>
+ </header>
 
 
-
-		<main role="main">	
-
-
-
-
-
-
-	<h3> Hi! Thanks for coming, it's nice you're here. </h3>
-	<br>
+<main class="site-content" role="main">
+    <section>
+        <div class="home-intro">
+            <p class="tagline">Sharing the bug for natural history.</span></p>
+        </div><!-- /end .home-intro -->
+    </section>
 
 
 
+    <section>
+        <div class="articles-recent">
+            <header>
+                <h2 class="hed hed-section">Current Projects</h2>
+            </header>
 
-I'm <i>Aela Wild</i> (Dr. Ashley E Latimer) a paleontologist and maker in Canberra, Australia. I want to share cool things about amazing critters using art: 2D, 3D, and stop motion.
-<br>
-Check out some videos, articles, or the follies of a birdwatcher or have a look at some of my favorite things on the web. 
- <br>
-Do you need a graphic, an animation, or some 3D work? Have a look at my portfolio. Like what you see? Request a commission!
- <br>
-Want more? Support my work on Patreon to help me create faster and get some bonus lasercutter templates, tutorials, and other fun content.
- <br>
-Thanks for visiting, hope to see you around!
+            <article class="story story-lead">
+
+            <embed src="/support/mediaplayer.swf?file=EELY2.mp4" width="750" height="230" allowfullscreen="true" />
+                <img class="art"
+                    srcset="Clownfish_L.jpg 750w,
+                            Clownfish_L.jpg 375w"
+                    sizes="(min-width: 50em) 30vw,
+                           (min-width: 35em) 50vw,
+                           100vw"
+                    src="Clownfish_L.jpg" alt="Clownfish sculpt in polymer clay" />
+                <h2 class="hed">A stop motion video deep in the depths</a></h2>
+                
+                <p>Upcoming video exploring some faceless creatures of the deep, stay tuned for weekly updates on Twitter and Instagram.</p>
+            </article>
+        </div>
+        </section>
+
+<section>
+    <div class="articles-past">
+               <header><p>
+                <h2 class="hed hed-section">Past Projects</h2></p>
+
+           </header>
 
 
-	</p>
-	</main>
+            <article class="story story-alt">
+                <img class="art"
+                    srcset="Bearfore2.jpg 750w,
+                            Bearfore2.jpg 375w"
+                    sizes="(min-width: 50em) 30vw,
+                           (min-width: 35em) 50vw,
+                           100vw"
+                    src="Bearfore2.jpg"
+                    alt="A gummy bear gets new teeth" />
+                <h2 class="hed">RSB Bear</a></h2>
+                
+                <p>This bear, confiscated on entry to Australia by Australian Biosecurity, was donated to the Research School of Biology at RSB. She needed a new set of teeth, so a little 3D printing, sculpey sculpting, and a few coats of paint later this bear is grinning again.</p>
+            </article>
+                        <article class="story story-alt2">
+                <img class="art"
+                    srcset="Bearfore2.jpg 750w,
+                            Bearfore2.jpg 375w"
+                    sizes="(min-width: 50em) 30vw,
+                           (min-width: 35em) 50vw,
+                           100vw"
+                    src="Bearfore2.jpg"
+                    alt="A gummy bear gets new teeth" />
+                <h2 class="hed">RSB Bear</a></h2>
+                
+                <p>This bear, confiscated on entry to Australia by Australian Biosecurity, was donated to the Research School of Biology at RSB. She needed a new set of teeth, so a little 3D printing, sculpey sculpting, and a few coats of paint later this bear is grinning again.</p>
+            </article>
 
-	<footer>
-	<div id="footerinclude"/>
-	</footer>
+            
+        </div>
+    </section>
+</main>
+
+<footer>
+   <p> <div class="site-footer">
+        <div id="footerinclude"/></div>
+    </div>
+</p>
+</footer>
+
+
 </body>
 </html>

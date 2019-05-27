@@ -30,7 +30,7 @@ a:hover {color: #FFC300 ;
 		}	
 main {border:  none;
 			position: relative;
-	margin: 10em 0em 10em 10em;}
+	margin: 0em 10em 0em 10em;} /*top right bottom left */
 
 .nav-item {
   display: inline-block;

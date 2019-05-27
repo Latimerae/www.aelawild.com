@@ -46,7 +46,7 @@ a:hover {color: #FFC300 ;
 main {border:  none;
 			position: relative;
 	} 
-
+@supports (display: grid) {
 .site-mast {
   display: grid;
    padding: 1em; }
@@ -55,7 +55,7 @@ main {border:  none;
    grid-column: content;
   margin-bottom: 2em; }
 
-@supports (display: grid) {
+
   .site-mast {
     margin-bottom: 0;
     padding: 0;

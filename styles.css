@@ -15,7 +15,7 @@ a:hover {
 
 
 
-      
+
 h1 {color:black;
 	font-size: 50px;
 	line-height:50px;}
@@ -178,4 +178,9 @@ img {
     width: 100%;
 }
 
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
 }

@@ -56,15 +56,15 @@ main {border:  none;
        grid-column: content;
       margin-bottom: 2em; }
 
-
-      .site-mast {
+    .site-mast {
         margin-bottom: 0;
         padding: 0;
         grid-template-columns: minmax(1rem, 1fr) [content-start] minmax(auto, 70em) [content-end] minmax(1rem, 1fr); }
-      .site-header {
-        background: none;
-        grid-column: content;
-        margin-bottom: 0; } }
+    .site-header {
+      background: none;
+      grid-column: content;
+      margin-bottom: 0; } 
+    }
 
     .nav-item {
       display: inline-block;

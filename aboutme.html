@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Hello and welcome to the guts-->
+	<head>
+		<meta charset="UFT-8" />
+		<title>Aela Wild</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+
+
+		<!-- this thing calls the javamagic(jquery) to insert a separate html page; hashtag is the div called later in the page-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+			</script>
+		<script>
+			$(document).ready(function() {
+	    		$('#headerinclude').load('header.html');
+	    		$('#navinclude').load('navbar.html');
+	    		$('#footerinclude').load('footer.html');
+			}); 
+		</script>
+		
+		</head>
+
+
+	<body class="pg-full has-bg">
+		<main class="pg-full has-bg" role="main">
+	<div class="site-header">
+		<header role="header">
+			<div id="headerinclude"/>
+			</header>
+		<nav role="nav">
+			<div id="navinclude"/>
+			</nav>
+		</div>
+
+
+		<main role="main">	
+	<div role="mainimage"> <img src="Ash.png" alt="Aela Wild" class="Profilepic"> 
+	</div>
+<div role="articletitle">
+	<br><h2> Hi! Thanks for coming, it's nice you're here. </h2>
+	</div>
+	<br>
+<article class="w3-container">
+I'm <i>Aela Wild</i> (Dr. Ashley E Latimer) a paleontologist and maker in Canberra, Australia. I want to share cool things about amazing critters using art: 2D, 3D, and stop motion.
+<br><br>
+Check out some videos, articles, the follies of a birdwatcher, or have a look at some of my favorite things on the web. 
+ <br>
+Do you need a graphic, an animation, or some 3D work? Have a look at my<b><a href="commissions.html"> portfolio</a></b>. Like what you see? Request a commission!
+ <br>
+Want more? Support my work on Patreon and get some bonus lasercutter templates, tutorials, and other content.
+ <br><br>
+Thanks for visiting, hope to see you around!
+	<br> <br> <br>
+
+Download my <a href="CV.docx" download="Latimer-WildCV.docx">CV.</a> <br>
+
+Have a look at my publications on ResearchGate <a href="https://www.researchgate.net/profile/Ashley_Latimer"><img src="rg.png" height="20px" alt="ResearchGate"> </a> or Academia <a href="http://uzh.academia.edu/AshleyLatimer"><img src="academia.png" height="20px" alt="Academia.edu"> </a>, or look at 3D models on MorphoMuseuM <a href="http://morphomuseum.com/articles/search/search_for:latimer"><img src="mm.png" height="20px" alt="MorphoMuseuM"> </a>. 
+<article class="w3-container">
+	</p>
+	</main>
+		<footer>
+		<div id="footerinclude"/>
+	</footer>
+</body>
+</html>

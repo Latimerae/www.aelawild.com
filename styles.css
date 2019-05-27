@@ -16,7 +16,7 @@ p {color:black;
 body{
 	background: #FFF;
 	color: #333;
-	margin: 0 auto;
+	margin: 0em 8em 0em 8em;/*top right bottom left */
     }
 
 
@@ -30,7 +30,7 @@ a:hover {color: #FFC300 ;
 		}	
 main {border:  none;
 			position: relative;
-	margin: 0em 10em 0em 10em;} /*top right bottom left */
+	} 
 
 .nav-item {
   display: inline-block;

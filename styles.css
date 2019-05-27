@@ -44,7 +44,6 @@ a:visited  {color:#009900;
 a:hover {color: #FFC300 ;
 		}	
 main {border:  none;
-			position: relative;
 	} 
 
 @supports (display: grid) {
@@ -52,9 +51,6 @@ main {border:  none;
       display: grid;
        padding: 1em; }
 
-    .site-header {
-       grid-column: content;
-      margin-bottom: 2em; }
 
     .site-mast {
         margin-bottom: 0;

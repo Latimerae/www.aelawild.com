@@ -23,14 +23,11 @@ body{
 
 a:link  {color:#9d002d;
 		text-decoration:none;
-		font-size:12px;
 		}
 a:visited  {color:#9d002d;
 		text-decoration:none;
-		font-size:12px;
 		}
 a:hover {color: #FFC300 ;
-		font-size:12px;
 		}	
 main {border:  none;
 			position: relative;

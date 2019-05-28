@@ -101,6 +101,8 @@ main {border:  none;
     .portrait {
         height:50px;
         margin: 2em 0em 2em 0em;
+        border-top-left-radius: 25px;
+    overflow: hidden;
     }
 
 @media ( min-width: 35em ){

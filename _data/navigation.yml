@@ -5,7 +5,7 @@ main:
   - title: "Gallery"
     url: /gallery/
   - title: "Blog"
-    url: /blog/
+    url: /_pages/blog.md
   # - title: "Sitemap"
   #   url: /sitemap/
   

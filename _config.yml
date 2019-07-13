@@ -265,8 +265,8 @@ tag_archive:
 #     - categories
 #     - tags
 #   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
+#     category: single
+#     tag: single
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/

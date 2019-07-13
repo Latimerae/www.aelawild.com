@@ -2,9 +2,9 @@
 main:
     - title: "About"
      url: /about/
-   - title: "Gallery"
-     url: /year-archive/
-   - title: "Blog"
+    - title: "Gallery"
+     url: /gallery/
+    - title: "Blog"
      url: /blog/
   # - title: "Sitemap"
   #   url: /sitemap/

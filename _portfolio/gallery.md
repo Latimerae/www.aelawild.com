@@ -12,3 +12,5 @@ gallery:
     image_path: assets/images/Clownfish_L.jpg
     alt: "Upcoming rook short"
 ---
+
+{% include gallery caption="This is a sample of my work." %}

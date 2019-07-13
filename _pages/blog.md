@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: "Posts by Collection"
-permalink: /collection-archive/
-author_profile: true
+layout: splash
+title: "Blog"
+permalink: /blog/
+author_profile: false
 ---

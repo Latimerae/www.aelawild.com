@@ -1,10 +1,11 @@
 # main links
 main:
-    - title: "About"
-     url: /about/
-    - title: "Gallery"
-     url: /gallery/
-    - title: "Blog"
-     url: /blog/
+  - title: "About"
+    url: /about/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Blog"
+    url: /blog/
   # - title: "Sitemap"
   #   url: /sitemap/
+  

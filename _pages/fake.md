@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "fake"
-permalink: /fake/
+permalink: /portfolio/
+collection: portfolio
 author_profile: false
 ---
 

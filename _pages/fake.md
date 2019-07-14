@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Blog"
-permalink: /blog/
+title: "fake"
+permalink: /fake/
 author_profile: false
 ---
 

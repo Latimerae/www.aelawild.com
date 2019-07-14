@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Portfolio
 layout: collection
 permalink: /portfolio/
 collection: portfolio
@@ -7,8 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-
-
-
-
-This is a sample of my work.
+Sample document listing for the collection `_portfolio`.

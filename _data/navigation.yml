@@ -6,8 +6,8 @@ main:
     url: /gallery-archive/
   - title: "Sitemap"
     url: /sitemap/
-  - title: "Collections"
-    url: /collection-archive/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Blog"
     url: /blog/
   # - title: "Sitemap"

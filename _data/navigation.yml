@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Gallery"
-    url: /portfolio/gallery/
+    url: /gallery-archive/
   - title: "Blog"
     url: /blog/
   # - title: "Sitemap"

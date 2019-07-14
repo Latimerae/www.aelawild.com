@@ -1,9 +1,6 @@
 ---
 title: "Project Gallery"
-excerpt: "Various projects both commissioned and personal in progress works"
-header:
- 	image: /assets/images/rookbanner.jpg
-<!--  teaser: /assets/images/foo-bar-identity-th.jpg -->
+excerpt: "Bear with a toothy grin"
 gallery:
   - url: /assets/images/Bearfore2.jpg
     image_path: assets/images/Bearfore.jpg

@@ -2,7 +2,7 @@
 title: "Clownfish"
 excerpt: "Various projects both commissioned and personal in progress works"
 header:
-  image: /assets/images/clownfish.jpg
+  image: /assets/images/clownfishbanner.jpg
   teaser: /assets/images/clownfish.jpg
 gallery:
   - url: /assets/images/clownfish.jpg

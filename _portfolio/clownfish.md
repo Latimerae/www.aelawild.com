@@ -1,6 +1,6 @@
 ---
-title: "Clownfish"
-excerpt: "Various projects both commissioned and personal in progress works"
+title: "Into The Deep"
+excerpt: "Discovering strange biology, work in progress with Rook"
 header:
   image: /assets/images/clownfishbanner.jpg
   teaser: /assets/images/clownfish.jpg
